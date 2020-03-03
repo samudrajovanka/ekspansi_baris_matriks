@@ -23,8 +23,8 @@ def ekspansiBaris(ind_row, arr, ind_col = 0):
         ind_row -= 1
         row = -1
         val_ind = arr[ind_row][ind_col]
-        print('row =', ind_row)
-        print('col =', ind_col)
+        print('row =', ind_row+1)
+        print('col =', ind_col+1)
 
         arr_exp = np.array([[0,0,0],[0,0,0],[0,0,0]])
         for i in range(0, 4):
